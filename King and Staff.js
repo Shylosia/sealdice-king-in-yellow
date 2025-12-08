@@ -478,4 +478,3 @@ cmdTarot.solve = function (ctx, msg, argv) {
 ext.cmdMap['kas'] = cmdKas;           
 ext.cmdMap['King and Staff'] = cmdKas; 
 ext.cmdMap['tarot'] = cmdTarot;       
-ext.cmdMap['draw'] = cmdTarot;
