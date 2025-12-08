@@ -39,6 +39,7 @@ data/images/KingInYellow
     ├── ...
     ├── 77.png
     └── 78.png
+    
 图片命名规则：文件名必须为纯数字 0 到 77（对应卡牌 ID），格式为 .png。
 
 ID 78：请在 正位 文件夹中放入一张名为 78.png 的图片，作为“不可名状之牌”或卡背的显示图片。
@@ -55,25 +56,18 @@ ID 78：请在 正位 文件夹中放入一张名为 78.png 的图片，作为�
 高级用法： 支持乱序参数输入，参数之间用空格分隔。
 
 指定语言：
-
 .kas en - 输出英文结果（原汁原味的法语标题）。
-
 .kas cn - 输出中文结果（默认）。
 
-指定指示物 (Signifier)：
-
+指定指示物：
 .kas 10 - 强制指定 ID 为 10 的牌作为指示物。
-
 如果不指定，将随机抽取。
 
 指定正逆位：
-
 .kas + 或 .kas 正 - 指示物强制正位。
-
 .kas - 或 .kas 逆 - 指示物强制逆位。
 
 危险模式 (Danger Mode)：
-
 .kas danger 或 .kas 危 - 皇帝入局。
 
 设定：在原版规则中，皇帝牌通常被移除。开启此模式意味着封印解除，皇帝可能被抽中。
@@ -117,6 +111,6 @@ ID 78：请在 正位 文件夹中放入一张名为 78.png 的图片，作为�
 支持自定义卡牌名称和描述的本地化。
 
 📄 License
-MIT License
+GNU Affero General Public License v3.0
 
 This plugin is a fan-made creation and is not affiliated with Arc Dream Publishing.
