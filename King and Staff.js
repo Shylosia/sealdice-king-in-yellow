@@ -4,7 +4,7 @@
 // @version      1.0.0
 // @description  我们令人兴奋地实现了“王与杖”牌阵以及其他常用牌阵的抽取，并做了大量不同情况的支持。期待您请王入局，我们一直在看。
 // @timestamp    1716940800
-// @license      MIT
+// @license      GNU Affero General Public License v3.0
 // @homepageURL  https://github.com/sealdice/javascript
 // ==/UserScript==
 
